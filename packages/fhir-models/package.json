@@ -1,0 +1,19 @@
+{
+  "name": "@constellation/fhir-models",
+  "version": "0.1.0",
+  "description": "FHIR R4 TypeScript types with Zod validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  }
+}
